@@ -161,15 +161,15 @@ body {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  opacity: 0;
-  transition: opacity 0.2s;
+  scale: 0;
+  transition: scale 0.2s;
 }
 
 .card picture:hover::after {
   opacity: 0.4;
 }
 .card picture:hover::before {
-  opacity: 1;
+  scale: 1;
 }
 
 .card__img:hover {
